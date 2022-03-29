@@ -77,7 +77,7 @@ export default class App extends React.Component {
         style={{
           width: '100%',
           height: height / 1,
-          resizeMode: 'cover',
+          resizeMode: 'center',
           opacity: 0.5,
         }}
       />
@@ -129,7 +129,7 @@ export default class App extends React.Component {
               style={{
                 fontSize: responsiveFontSize(2.3),
                 fontWeight: 'bold',
-                color: 'black',
+                color: 'green',
               }}>
               Done
             </Text>
